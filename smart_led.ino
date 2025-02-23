@@ -26,7 +26,7 @@ void setup() {
     delay(500);
     Serial.print(".");
   }
-  Serial.println("\nWiFi connected");
+  Serial.println("\nConnected to WiFi");
   client.setInsecure();
 }
 
